@@ -7,14 +7,37 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to "OTTW", root_path, id: "logo" %>    
+      <%= link_to "ONE TO THE WORLD", root_path, id: "logo" %>    
     </div>
 
     <div id="navbarCollapse" class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Place", root_path %></li>
-        <li><%= link_to "Holder", root_path %></li>
-        <li><%= link_to "PlaceHolder", root_path %></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Español 2<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><%= link_to "Proyecto: Rutinas", spn2about_path %></li>
+            <li role="separator" class="divider"></li>
+            <li><%= link_to "Bloque 1 (Dr. Gallardo)", gg16b1_path %></li>
+            <li><%= link_to "Bloque 3 (Dr. Gallardo)", gg16b3_path %></li>
+            <li><%= link_to "Bloque 7 (Dr. Gallardo)", gg16b7_path %></li>
+            <li role="separator" class="divider"></li>
+            <li><%= link_to "Bloque 3 (Srta. Graham)", sg16b3_path %></li>
+            <li><%= link_to "Bloque 4 (Srta. Graham)", sg16b4_path %></li>
+            <li><%= link_to "Bloque 5 (Srta. Graham)", sg16b5_path %></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Español 5H<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><%= link_to "Proyecto: Loudoun Quijote", quijote_path %></li>
+            <li role="separator" class="divider"></li>
+            <li><%= link_to "Bloque 4 (Dr. Gallardo)", gg16b4_path %></li>
+            <li><%= link_to "Bloque 6 (Dr. Gallardo)", gg16b6_path %></li>
+          </ul>
+        </li>
+
+        <li><%= link_to "About", about_path %></li>
       </ul>
     </div>
   </div>
