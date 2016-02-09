@@ -50,7 +50,7 @@ h2 {
 #logo {
   float: left;
   margin-right: 10px;
-  font-size: 1.7em;
+  font-size: 2em;
   color:  #00CCFF;
   font-weight: bold;
   text-transform: uppercase;
@@ -60,6 +60,10 @@ h2 {
     color: white;
     text-decoration: none;
   }
+}
+
+#navlinks {
+  font-size: 1.7em;
 }
 
 /* footer */
