@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get 'rutinas16gg' => 'spanish2#ggspn216'
   get 'rutinas16sg' => 'spanish2#sgspn216'
   get 'quijote16'   => 'spanish5#quijote16'
+  get 'artistas16'  => 'spanish4#artists16'
 end
